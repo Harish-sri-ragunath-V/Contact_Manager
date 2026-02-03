@@ -1,0 +1,22 @@
+            <div className="dashboard-section">
+                <h3>Location-aware Contacts</h3>
+                <div className="section-content">
+                    <div className="action-item" onClick={handleFindNearby}>
+                        <i className="fas fa-map-marker-alt"></i>
+                        <span>Find contacts near you</span>
+                    </div>
+                    <div className="action-item" onClick={handleViewMap}>
+                        <i className="fas fa-map"></i>
+                        <span>View map</span>
+                    </div>
+                </div>
+            </div>
+
+
+    const handleFindNearby = () => {
+        alert('Location feature would open here');
+    };
+
+    const handleViewMap = () => {
+        alert('Map view would open here');
+    };

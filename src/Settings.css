@@ -1,0 +1,122 @@
+.settings {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 25px;
+  background-color: #fefefe;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Section title */
+.settings-section h2 {
+  font-size: 1.8rem;
+  color: #333;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #4CAF50;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+/* Each item */
+.setting-item {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.setting-info h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.setting-info p,
+.setting-info h4 {
+  margin: 4px 0 0 0;
+  color: #777;
+  font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 8px 12px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: border-color 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  border-color: #4CAF50;
+}
+
+/* Buttons */
+.edit-btn,
+.primary {
+  padding: 8px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  transition: background 0.2s;
+  margin-top: 10px;
+}
+
+/* Edit button */
+.edit-btn {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.edit-btn:hover {
+  background-color: #45a049;
+}
+
+/* Save button */
+.primary {
+  background-color: #2196F3;
+  color: white;
+}
+
+.primary:disabled {
+  background-color: #90CAF9;
+  cursor: not-allowed;
+}
+
+.primary:hover:not(:disabled) {
+  background-color: #1976D2;
+}
+
+/* Modal actions container */
+.modal-actions {
+  margin-top: 20px;
+}
+h3{
+    color: red;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .setting-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+  }
+
+  .edit-btn,
+  .primary {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
