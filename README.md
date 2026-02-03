@@ -3,12 +3,9 @@
 
 A simple, easy-to-use Contact Manager for storing, searching and managing personal or organizational contacts. This repository contains the source for the Contact Manager application — a place to add, edit, delete, import/export and search contacts.
 
-> NOTE: This README is intentionally generic. Replace the placeholders and example commands below with the exact ones for your project's stack (Node/Python/Java/.NET, etc.). If you'd like, I can detect the stack and customize this README to the repository automatically.
-
 ## Table of Contents
 
 - [Features](#features)
-- [Demo](#demo)
 - [Tech stack](#tech-stack)
 - [Getting started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -36,10 +33,6 @@ A simple, easy-to-use Contact Manager for storing, searching and managing person
 - Persistent storage (SQLite / Postgres / other) — configurable
 - Simple REST API and optional UI (web or CLI) to manage contacts
 - Tests and basic CI (add CI config if desired)
-
-## Demo
-
-Add screenshots or a link to a hosted demo here.
 
 ## Tech stack
 
