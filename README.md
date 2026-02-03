@@ -1,7 +1,5 @@
 # Contact Manager
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)]() <!-- replace URL if needed -->
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)]() <!-- replace with CI badge -->
 
 A simple, easy-to-use Contact Manager for storing, searching and managing personal or organizational contacts. This repository contains the source for the Contact Manager application — a place to add, edit, delete, import/export and search contacts.
 
@@ -216,14 +214,6 @@ Add a CONTRIBUTING.md file to document code style, commit message rules, and PR 
 - Better deduplication & merge tools
 - Tags/groups management and advanced search filters
 - Bulk operations and scheduled backups
-
-## License
-
-This project is licensed under the MIT License — see the LICENSE file for details.
-
-## Acknowledgements
-
-- Thank any libraries, templates, or tutorials you used
 
 ## Contact
 
